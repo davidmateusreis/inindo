@@ -1,0 +1,153 @@
+@font-face {
+	font-family: Roboto;
+	src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+	background: #815843 url("assets/bg.png");
+	margin: 0px;
+	font-family: 'Roboto';
+	font-size: 1rem;
+	color: #ffffff;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 200%;
+	text-align: center;
+	line-height: 32px;
+	margin: 0px;
+}
+
+div {
+	padding: 24px;
+}
+
+a {
+	color: #00f0f0;
+}
+
+del {
+	color: #3fbfff;
+}
+
+b {
+	font-size: 120%;
+}
+
+strong {
+	font-size: 120%;
+}
+
+big {
+	font-size: 144%;
+}
+
+.pagelink {
+	color: #3fbfff;
+}
+
+.pagelink a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.warn {
+	color: #f00000;
+}
+
+.info {
+	color: #00f0f0;
+}
+
+.attn {
+	color: #f0f000;
+}
+
+.gray {
+	color: #bcbcbc;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	background-color: #000000;
+	width: 40%;
+	margin: auto;
+	padding: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pagination li {
+	margin: 0 100px;
+}
+
+.pagination a {
+	color: #ffffff;
+	font-size: x-large;
+	text-decoration: none;
+}
+
+.entryTextMain {
+	background-color: #000000;
+	width: 40%;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+.title {
+	background-color: #000000;
+	width: 40%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 993px) {
+	body {
+		font-size: 1rem;
+	}
+
+	big {
+		font-size: 100%;
+	}
+
+	strong {
+		font-size: 100%;
+	}
+
+	b {
+		font-size: 100%;
+	}
+
+	.title {
+		width: 82%;
+	}
+
+	.entryTextMain {
+		width: 82%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.pagination {
+		width: 82%;
+	}
+
+	.pagination li {
+		margin: 0 20px;
+	}
+
+	.pagination a {
+		color: #ffffff;
+		font-size: 1rem;
+		text-decoration: none;
+	}
+}
